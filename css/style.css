@@ -34,10 +34,42 @@
     height: 250px;
     border-radius: 50%;
 }
-.mainFooter {
-    height: 50vh;
-}
+
 #map {
     height: 100%;
     width: 500px;
+  }
+
+article {
+      min-height: 100vh;
+      margin-top: 10%;
+      margin-bottom: 10%;
+  }
+
+  .about-me {
+      background-color: white;
+      width: 100%;
+  }
+
+  .top-img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      z-index: -5;
+  }
+  .mainFooter {
+      background-color: #295162;
+      color: #8d8d8d;
+      background-size: cover;
+      padding-bottom: 5%;
+
+  }
+  .row2-footer {
+    padding-top: 5%;
+  }
+
+  .footer-img-logo {
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
   }
